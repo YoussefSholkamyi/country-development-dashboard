@@ -28,6 +28,8 @@ Interactivity includes Region, Country and GDP Category slicers, a Clear all sli
 
 ![Economic Analysis](images03_economic_analysis.png)
 
+![Hidden Pages](images04_hidden_pages.png)
+
 ## Data
 
 The dataset was provided by the initiative and is shared here with permission. It has one row per country or territory and about 45 columns, covering population, GDP, life expectancy, inflation, exports, imports, birth and death rates, and more.
