@@ -24,9 +24,9 @@ Two hidden pages support the report: Country Profile (a drill-through page opene
 
 Interactivity includes Region, Country and GDP Category slicers, a Clear all slicers button, page navigation buttons, cross-filtering between visuals, drill-through, tooltips, and titles that change with the current selection.
 
-![Health Care Analysis](images/02_health_care.png)
+![Health Care Analysis](images02_health_care.png)
 
-![Economic Analysis](images/03_economic_analysis.png)
+![Economic Analysis](images03_economic_analysis.png)
 
 ## Data
 
