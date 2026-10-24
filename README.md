@@ -62,13 +62,12 @@ Growth Indicator Category (based on GDP growth): Low below 3%, Moderate from 3% 
 
 The thresholds are rounded versions of the dataset's own tertiles. A country with a missing value is labeled No Data instead of being forced into Low.
 
-Full details are in docs/Data_Cleaning.md.
 
 ## Model and DAX
 
 The model is one main table (CountryData) with a Region to Country hierarchy, fields grouped by theme (economic, health, population, trade), and the Country column set as a geographic field for the map.
 
-Main measures (full code in docs/DAX_Measures.md):
+Main measures:
 
 - Average GDP: mean GDP of the selected countries.
 - GDP Growth Indicator: a Low, Moderate or High label from average GDP growth.
@@ -84,7 +83,7 @@ Functions used: SUM, AVERAGE, CALCULATE, DIVIDE, IF, FILTER, RANKX, TOPN, MAXX, 
 
 ## Key insights
 
-These were calculated from the cleaned dataset. The full write-up is in docs/Business_Insights.md.
+These were calculated from the cleaned dataset.
 
 1. Wealth and health move together. Countries with GDP per capita above $11,000 average 76.8 years of life expectancy (77 countries). Below $3,000 it is 56.5 years (76 countries).
 
@@ -122,20 +121,16 @@ By the end of the project I could build a professional multi-page Power BI dashb
 
 - README.md
 - LICENSE
-- data/country_data_comp.xlsx
-- data/Region_Map.xlsx
-- powerbi/Country_Development_Dashboard.pbix
-- docs/Data_Cleaning.md
-- docs/DAX_Measures.md
-- docs/Business_Insights.md
-- images/ (dashboard screenshots)
-- presentation/Country_Development_Dashboard.pdf
+- data: the dataset (CSV)
+- PowerBI: the Power BI report file (.pbix)
+- images: dashboard screenshots
+- slides: the project presentation (PowerPoint)
 
 ## How to open the report
 
 1. Install Power BI Desktop (free, Windows).
-2. Download powerbi/Country_Development_Dashboard.pbix.
-3. Open it. If Power BI asks for the data source, point it to the files in the data folder.
+2. Download the .pbix file from the PowerBI folder.
+3. Open it. If Power BI asks for the data source, point it to the CSV file in the data folder.
 
 ## Tools
 
