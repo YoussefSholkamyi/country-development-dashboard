@@ -152,4 +152,4 @@ Code, documentation and report files are under the MIT license (see LICENSE). Th
 ## Contact
 
 Youssef Sholkamyi
-LinkedIn: [https://www.linkedin.com/in/youssef-sholkamyi-274ab0379/]
+LinkedIn: https://www.linkedin.com/in/youssef-sholkamyi-274ab0379/
