@@ -4,7 +4,7 @@ An interactive Power BI report that compares 237 countries and territories acros
 
 This is Mini-Project 3 of the Business Intelligence track at Digital Egypt Pioneers Initiative (DEPI).
 
-![Executive Overview](images/01_executive_overview.png)
+![Executive Overview](images01_executive_overview.png)
 
 ## The scenario
 
